@@ -1,0 +1,36 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+main {
+    margin: auto;
+    padding-left: 245px;
+    padding-right: px;
+    
+}
+
+h1, h3 {
+    color: white;
+    padding-left: 130px;
+    text-shadow: 1px 1px 1px black;
+    
+}
+
+body {
+    background-image: linear-gradient(to right, rgb(153, 0, 255), rgb(61, 61, 250));
+}
+
+.pag01 {
+    padding-left: 445px;
+    
+    
+}
+
+.botao {
+    padding: auto;
+    padding-left: 240px;
+}
+
+
+
+

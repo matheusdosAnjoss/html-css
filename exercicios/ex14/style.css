@@ -1,0 +1,19 @@
+body{
+    background-color:rgb(41, 244, 244) ;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    color: blue;
+    background-color:rgb(193, 186, 86) ;
+    text-decoration: underline;
+}
+
+h2{
+    color: rgb(111, 111, 231);
+}
+
+p{
+color: rgb(255, 153, 0);
+}
+
