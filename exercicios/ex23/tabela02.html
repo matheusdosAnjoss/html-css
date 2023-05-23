@@ -13,6 +13,14 @@
         table {
            width: 500px;
            border-collapse: collapse ;
+           position: relative;
+        }
+
+        caption {
+            font-size: 1.5em;
+            font-weight: bold;
+            padding: 13px;
+            background-color:rgba(128, 128, 128, 0.637);
         }
 
         td, th {
@@ -21,19 +29,32 @@
         }
 
         thead, tfoot {
-            background-color: gray;
+            background-color: rgba(0, 0, 0, 0.813);
             color: white;
         }
+
+        thead > tr > th {
+            position: sticky;
+            top: 0;
+            background-color: #383838;
+        }
+
+        tbody tr:nth-child(2n) {
+            background-color: lightgray;
+        }
+
+
     </style>
 </head>
 <body>
     <h1>Uso de tabelas grandes</h1>
 
     <table>
+        <caption>População das Unidades Federativas</caption>
         <thead>
             <tr>
                 <th>Estado</th>
-                <th>População</th>
+                <th style="width: 50px;">População</th>
             </tr>
         </thead>
         <tbody>
@@ -180,6 +201,11 @@
             </tr>
         </tfoot>
     </table>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis magnam vel, quam perspiciatis natus delectus voluptate ab dolore aspernatur, reiciendis, vero laboriosam? Magnam saepe error doloribus illo repellat nihil debitis.lore Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad veniam nesciunt dicta minima, aliquid ullam quasi officiis, enim molestiae sequi atque blanditiis fuga. Vero quae eum esse, fuga libero quia. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Expedita dicta modi assumenda minima cupiditate quidem ipsa aliquam quos ea nihil neque animi iure ab eum nemo velit, illum voluptate molestias. Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi, aspernatur, labore esse inventore nulla ipsa libero impedit unde reprehenderit veritatis, obcaecati voluptatem. Libero, ex quod saepe quisquam culpa nesciunt pariatur?</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis magnam vel, quam perspiciatis natus delectus voluptate ab dolore aspernatur, reiciendis, vero laboriosam? Magnam saepe error doloribus illo repellat nihil debitis.lore Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad veniam nesciunt dicta minima, aliquid ullam quasi officiis, enim molestiae sequi atque blanditiis fuga. Vero quae eum esse, fuga libero quia. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Expedita dicta modi assumenda minima cupiditate quidem ipsa aliquam quos ea nihil neque animi iure ab eum nemo velit, illum voluptate molestias. Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi, aspernatur, labore esse inventore nulla ipsa libero impedit unde reprehenderit veritatis, obcaecati voluptatem. Libero, ex quod saepe quisquam culpa nesciunt pariatur?</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis magnam vel, quam perspiciatis natus delectus voluptate ab dolore aspernatur, reiciendis, vero laboriosam? Magnam saepe error doloribus illo repellat nihil debitis.lore Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad veniam nesciunt dicta minima, aliquid ullam quasi officiis, enim molestiae sequi atque blanditiis fuga. Vero quae eum esse, fuga libero quia. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Expedita dicta modi assumenda minima cupiditate quidem ipsa aliquam quos ea nihil neque animi iure ab eum nemo velit, illum voluptate molestias. Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi, aspernatur, labore esse inventore nulla ipsa libero impedit unde reprehenderit veritatis, obcaecati voluptatem. Libero, ex quod saepe quisquam culpa nesciunt pariatur?</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis magnam vel, quam perspiciatis natus delectus voluptate ab dolore aspernatur, reiciendis, vero laboriosam? Magnam saepe error doloribus illo repellat nihil debitis.lore Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad veniam nesciunt dicta minima, aliquid ullam quasi officiis, enim molestiae sequi atque blanditiis fuga. Vero quae eum esse, fuga libero quia. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Expedita dicta modi assumenda minima cupiditate quidem ipsa aliquam quos ea nihil neque animi iure ab eum nemo velit, illum voluptate molestias. Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi, aspernatur, labore esse inventore nulla ipsa libero impedit unde reprehenderit veritatis, obcaecati voluptatem. Libero, ex quod saepe quisquam culpa nesciunt pariatur?</p>
+
 </body>
 </html>
 
