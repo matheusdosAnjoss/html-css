@@ -1,0 +1,49 @@
+@charset "UTF-8";
+
+/*  Estilos para telas  */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+}
+
+header {
+    background-color: rgb(148, 148, 148);
+}
+
+header > h1 {
+    text-align: center;
+}
+
+
+
+menu ul {
+    list-style-type: none;
+    background-color: rgb(85, 85, 85);
+}
+
+menu li {
+    background-color: rgb(79, 76, 76);
+    display: inline-block;
+    padding: 10px;
+    color: aliceblue;
+    border-radius: 10px;
+}
+
+menu li:hover {
+    background-color: black;
+    color: aliceblue;
+}
+
+article {
+    width: 550px;
+    display: block;
+    margin: auto;
+    padding: 20px;
+    background-color: lightgray;
+}
